@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Exercício 2</title>
+    </head>
+    <body>
+    <fieldset>
+        <legend>Compras</legend>
+        <table width="600" border="0" cellpadding="3" cellspacing="5">
+            <tr>
+                <td>
+                    <h2>Produtos</h2>
+                </td>
+                <td>
+                    <h2>Lista de Compras</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="product" id="slct-products">
+                        <option value=""> -- SELECIONE -- </option>
+                        <option value="">Aquário 43L</option>
+                    </select>
+                    <button type="button" id="add-product">+</button>
+                    <h2>Complementos</h2>
+                    <ul>
+                        <li>
+                            <input type="radio" name="complement" value="movel_luminaria"> Móvel + Luminária
+                        </li>
+                        <li>
+                            <input type="radio" name="complement" value="luminaria"> Luminária
+                        </li>
+                        <li>
+                            <input type="radio" name="complement" value="vidro"> Só vidro
+                        </li>
+                    </ul>
+                    <input type="checkbox" name="gift" value="true"> Entrega como presente
+                </td>
+                <td>
+                    <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+                    Valor Total: <input type="text" name="total" value="">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+    </body>
+</html>
